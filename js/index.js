@@ -1,0 +1,10 @@
+import {  Dog  } from './Dog.js';
+import {  Cat  } from './Cat.js';
+const dog = new Dog();
+dog.setName('kikikikiki');
+dog.getName();
+dog.barck();
+const cat = new Cat();
+cat.jump();
+cat.setName('name cat');
+cat.getName();
